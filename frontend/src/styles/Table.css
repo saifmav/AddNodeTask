@@ -1,0 +1,44 @@
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  display: table;
+  line-height: 1.5em;
+  max-width: 100%;
+  overflow: auto;
+  width: 100%;
+  word-break: normal;
+  word-break: keep-all;
+}
+
+table thead tr {
+  background: #fff;
+}
+
+table tr th, table tr td {
+  position: relative;
+  border: 1px solid #edf1f7;
+  vertical-align: middle;
+}
+
+th {
+  padding: 1.25rem;
+  font-size: .875em;
+  color:#1e6bb8;
+  border: 1.5px solid #edf1f7;
+  font-weight: 500;
+}
+
+td {
+  text-align: center;
+  border: 1px solid #edf1f7;
+  padding: .100rem;
+  font-size: 12px;
+}
+
+table tbody tr:nth-child(2n) {
+  background-color: #f7f9fc;
+}
+
+table tbody tr:hover {
+  background: #edf1f7 !important;
+}
